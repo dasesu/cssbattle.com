@@ -6,4 +6,7 @@
 003.-PushButton  \
 004.-UpsnDowns  \
 005.-AcidRain  \
+006.-MissingSlice  \
+007.-LeafyTrail  \
+008.-FrokingCrazy  \
 

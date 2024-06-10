@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-color: #E3516E;
+  }
+  .container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+
+  .tarta {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100% 0 0 0;
+    background: #51B5A9;
+  }
+
+  .tarta::before,
+  .tarta::after {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    content: '';
+  }
+  .tarta::before {
+    top: 100px;
+    border-radius: 0 0 0 100%;
+    background: #F7F3D7;
+  }
+  .tarta::after {
+    left: 100px;
+    border-radius: 0 100% 0 0;
+    background: #FADE8B;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="tarta"></div>
+  </div>
+</body>
+</html>
