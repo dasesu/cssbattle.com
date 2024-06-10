@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+  </head>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-color: #0B2429;
+  }
+  .container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+  .drop {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50% 0 50% 50%;
+    background: #998235;
+  }
+  .drop::before,
+  .drop::after {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    content: '';   
+  }
+  .drop::before {
+    top: 60px;
+    left: -60px;
+    border-radius: 50% 0 50% 50%;
+    background: #F3AC3C;
+  }
+  .drop::after {
+    top: -60px;
+    left: 60px;
+    border-radius: 50% 50% 50% 50%;
+    background: #F3AC3C;
+    z-index:-1;
+  }
+</style>
+<body>
+  <div class="container">
+    <div class="pill"></div>
+    <div class="drop"></div>
+  </div>
+</body>
+
+</html>
