@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+  </head>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-color: #62306d;
+  }
+  .container {
+    position: relative;
+  }
+  .rectangle {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #f7ec7d;
+  }
+
+  .rectangle__left {
+    top: 150px;
+    left: 50px;
+  }
+
+  .rectangle__middle {
+    top: 100px;
+    left: 150px;
+  }
+
+  .rectangle__right {
+    top: 150px;
+    left: 250px;
+  }
+
+  .midcircle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #f7ec7d;
+  }
+
+  .midcircle__left {
+    top: 150px;
+    left: 50px;
+  }
+
+  .midcircle__middle {
+    top: 50px;
+    left: 150px;
+  }
+
+  .midcircle__right {
+    top: 150px;
+    left: 250px;
+  }
+</style>
+
+<body>
+<div class="container">
+  <div class="rectangle rectangle__left"></div>
+  <div class="midcircle midcircle__left"></div>
+  <div class="rectangle rectangle__middle"></div>
+  <div class="midcircle midcircle__middle"></div>
+  <div class="rectangle rectangle__right"></div>
+  <div class="midcircle midcircle__right"></div>
+</div>  
+</body>
+
+</html>

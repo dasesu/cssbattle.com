@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+  </head>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-color: #62306D;
+  }
+  .container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+  .pill {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 100px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(#F7EC7D 50%, #62306D 50%);
+  }
+  .pill::before,
+  .pill::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(#62306D 50%, #F7EC7D 50%);
+  }
+  .pill::before {
+    left: -100px;
+  }
+  .pill::after {
+    left: 100px;
+  }
+  
+</style>
+<body>
+  <div class="container">
+    <div class="pill"></div>
+  </div>
+</body>
+
+</html>
