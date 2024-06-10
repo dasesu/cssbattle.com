@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cloacked Spirit</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: #62306D;
+    }
+    .container {
+      position: relative;
+      width: 400px;
+      height: 300px;
+    }
+    .circle {
+      position: absolute;
+      top: 70px;
+      left: 170px;
+      width: 60px;
+      height: 60px;
+      z-index: 10;
+      border-radius: 50%;
+      outline: solid 20.5px #E38F66;
+      background-color: #AA445F;
+    }
+
+    .circle::before,
+    .circle::after
+    {
+      content: '';
+      position: absolute;
+      top: 100px;
+      width: 60px;
+      height: 60px;
+      outline: solid 20.5px #AA445F;
+      border-radius: 50%;
+      background: #E38F66;
+    }
+    .circle::before {
+      left: -100px;
+    }
+    .circle::after {
+      left: 100px;
+    }
+    .rectangle {
+      position: absolute;
+      top: 100px;
+      left: 150px;
+      width: 100px;
+      height: 200px;
+      background: #F7EC7D;
+    }
+
+    .rectangle::before,
+    .rectangle::after
+    {
+      position: absolute;
+      content: '';
+      top: 100px;
+      width: 100px;
+      height: 100px;
+      background: #F7EC7D;
+    }
+    .rectangle::before {
+      left: -100px; 
+    }
+    .rectangle::after {
+      left: 100px;
+    }
+    
+  </style>
+  </head>
+<body>
+<div class="container">
+  <div class="circle"></div>
+  <div class="rectangle"></div>
+</div>
+
+</body>
+</html>

@@ -9,4 +9,6 @@
 006.-MissingSlice  \
 007.-LeafyTrail  \
 008.-FrokingCrazy  \
+009.-Tesseract  \
+010.-CloakedSpirit 
 
