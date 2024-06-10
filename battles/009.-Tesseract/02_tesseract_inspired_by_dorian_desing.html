@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+  </head>
+<style>
+* {
+  box-sizing: border-box;
+}
+ body {
+  margin: 0; 
+}
+.container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background: linear-gradient(#222730 25%, #4CAAB3 25% 75%, #222730 75%); 
+}
+
+.square {
+  width: 150px;
+  aspect-ratio: 1;
+  transform: translateX(125px) translateY(75px) rotate(45deg);
+  box-shadow: 0 0 0 50px #222730;
+  background-color: #4CAAB3;
+}
+
+.square::after {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #393E46;
+}
+</style>
+<body>
+  <div class="container">
+    <div class="square"></div>
+  </div>
+</body>
+</html>

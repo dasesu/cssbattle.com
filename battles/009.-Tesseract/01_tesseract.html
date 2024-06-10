@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+  </head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background: #222730;
+  }
+  .container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+  .square {
+    position: absolute;
+    top: 75px;
+    left: 125px;
+    width: 150px;
+    height: 150px;
+    background: #4CAAB3;
+    transform: rotate(-45deg);
+    box-shadow: 0 0 0 50px #222730;
+  }
+
+  .square::after {
+    /* draw circle */
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #393E46;
+  }
+  
+  .rectangle {
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    width: 400px;
+    height: 150px;
+    background: #4CAAB3;
+  }
+</style>
+
+<body>
+<div class="container">
+  <div class="rectangle"></div>
+  <div class="square"></div>
+</div>
+</body>
+</html>
