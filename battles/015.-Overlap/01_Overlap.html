@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="css/style.css" rel="stylesheet"> -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #09042A;
+    }
+
+    .container {
+      width: 400px;
+      height: 300px;
+      position: relative;
+    }
+
+    .circle_left {
+      position: absolute;
+      top: 75px;
+      left: 75px;
+      background: #7B3F61;
+      overflow: hidden;
+    }
+
+    .circle_left,
+    .circle_middle {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+
+    .circle_middle {
+      margin-left: 100px;
+      background: #09042A;
+    }
+
+    .circle_right {
+      position: absolute;
+      top: 75px;
+      right: 75px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: #E78481;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="circle_left">
+      <div class="circle_middle"></div>
+    </div>
+    <div class="circle_right"></div>
+  </div>
+</body>
+
+</html>
