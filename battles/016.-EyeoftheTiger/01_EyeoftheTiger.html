@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background-color: #0B2429;
+      }
+
+      container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+      }
+
+      .square {
+        position: absolute;
+        top: 100px;
+        left: 79px;
+        width: 100px;
+        height: 100px;
+        background: #998235;
+        transform: rotate(45deg);
+      }
+
+      .square::after {
+        content: '';
+        position: absolute;
+        top: -100px;
+        left: 100px;
+        width: 100px;
+        height: 100px;
+        background: #998235;
+      }
+
+      .circle {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: solid 10px #998235;
+      }
+
+      .circle::after {
+        content: '';
+        position: absolute;
+        top: 65px;
+        left: 65px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #0B2429;
+        /* border: solid 45px #F3AC3C;
+       outline: solid 20px #0B2429; */
+        outline: solid 45px #F3AC3C;
+        box-shadow: 0px 0px 0px 65px #0B2429;
+
+      }
+    </style>
+  </head>
+
+<body>
+  <div class="container">
+    <div class="square"></div>
+    <div class="circle"></div>
+  </div>
+</body>
+
+</html>
