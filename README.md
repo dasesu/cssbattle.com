@@ -1,11 +1,14 @@
-# Colection of solvedd CSS challenges from CSSBattle.com:
+# CSS challenges from CSSBattle.com:
 
-## Battle
-#### <a href="battles/001.-SimplySquare/index.html">001.-SimplySquare</a>
-<a href="battles/001.-SimplySquare/index.html"><img align="left" src="battles/001.-SimplySquare/img/output.png" width=40%></a>  
+## Solved chalenges from Battle
 
-#### 002.-Carrom
-<a href="battles/001.-SimplySquare/index.html"><img align="left" src="battles/001.-SimplySquare/img/output.png" width=40%></a>  
+#### [001.-SimplySquare](battles/001.-SimplySquare/index.html)
+[![SimplySquare](battles/001.-SimplySquare/img/output.png =x200)
+](battles/001.-SimplySquare/index.html)
+
+#### [002.-Carrom](battles/002.-Carrom/index.html)
+[![Carrom](battles/002.-Carrom/img/output.png =x200)
+](battles/002.-Carrom/index.html)
 
 \003.-PushButton  \
 004.-UpsnDowns  \
