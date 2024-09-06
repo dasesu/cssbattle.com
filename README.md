@@ -12,7 +12,7 @@
 [<img alt="LeafyTrail" src="battles/007.-LeafyTrail/img/output.png" width=200 />](battles/007.-LeafyTrail/index.html)
 [<img alt="FrokingCrazy" src="battles/008.-FrokingCrazy/img/output.png" width=200 />](battles/008.-FrokingCrazy/index.html)
 [<img alt="Tesseract" src="battles/009.-Tesseract/img/output.png" width=200 />](battles/009.-Tesseract/index.html)
-[<img alt="CloakedSpirit" src="battles/010.-CloakedSpirit/img/output.png" width=200 />](battles/010.-CloakedSpirit/index.html)
+[<img alt="CloakedSpirits" src="battles/010.-CloakedSpirits/img/output.png" width=200 />](battles/010.-CloakedSpirits/index.html)
 [<img alt="EyeofSauron" src="battles/011.-EyeofSauron/img/output.png" width=200 />](battles/011.-EyeofSauron/index.html)
 [<img alt="WigglyMoustache" src="battles/012.-WigglyMoustache/img/output.png" width=200 />](battles/012.-WigglyMoustache/index.html)
 
