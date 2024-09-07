@@ -3,6 +3,35 @@
 ## Solved chalenges from Battle
 
 #### Battle #1 - Pilot Battle
+
+<span>
+	<div class="output">
+		[<img alt="SimplySquare" src="battles/001.-SimplySquare/img/output.png" width=200>](battles/001.-SimplySquare/index.html)
+	</div>
+	<div class="title">
+		[SimplySquare](battles/001.-SimplySquare/index.html)
+	</div>
+</span>
+<span>
+	<div class="output">
+		[<img alt="Carrom" src="battles/002.-Carrom/img/output.png" width=200 />](battles/002.-Carrom/index.html)
+	</div>
+	<div class="title">
+		[Carrom](battles/001.-SimplySquare/index.html)
+	</div>
+</span>
+<span>
+	<div class="output">
+		[<img alt="PushButton" src="battles/003.-PushButton/img/output.png" width=200 />](battles/003.-PushButton/index.html)
+	</div>
+	<div class="title">
+		[PushButton](battles/003.-PushButton/index.html)
+	</div>
+</span>
+
+
+
+
 [<img alt="SimplySquare" src="battles/001.-SimplySquare/img/output.png" width=200>](battles/001.-SimplySquare/index.html)
 [<img alt="Carrom" src="battles/002.-Carrom/img/output.png" width=200 />](battles/002.-Carrom/index.html)
 [<img alt="PushButton" src="battles/003.-PushButton/img/output.png" width=200 />](battles/003.-PushButton/index.html)
